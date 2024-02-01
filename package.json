@@ -1,0 +1,39 @@
+{
+  "name": "front",
+  "version": "0.1.0",
+  "private": true,
+  "browser": {
+    "fs": false
+  },
+  "scripts": {
+    "dev": "concurrently next dev \"npm run dev:server\"",
+    "dev:server": "json-server -w ./json-server/db.json --port 3002",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.15.6",
+    "axios": "^1.6.7",
+    "classnames": "^2.3.2",
+    "concurrently": "^8.2.2",
+    "json-server": "^1.0.0-alpha.23",
+    "next": "^13.5.4",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-hook-form": "^7.50.0",
+    "sass": "^1.68.0",
+    "save-file": "^2.3.1"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^8.1.0",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "typescript": "latest"
+  }
+}

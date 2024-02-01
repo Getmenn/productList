@@ -1,0 +1,194 @@
+{
+    "products": [
+      {
+        "id": "1",
+        "name": "Лаптоп ASUS ZenBook Pro",
+        "vendorCode": "ASUS-ZB001",
+        "barCode": "123456789012",
+        "description": "Мощный ноутбук для профессионалов",
+        "purchasePrice": 1200.0,
+        "sellingPrice": 1499.99,
+        "promoPrice": 1399.99,
+        "excise": false,
+        "hidden": false,
+        "productGroupId": "electronics",
+        "vat": {
+          "id": "vat1",
+          "name": "VAT 20%",
+          "rate": 20
+        },
+        "productType": {
+          "id": "type1",
+          "name": "Ноутбуки"
+        },
+        "unit": {
+          "id": "unit1",
+          "name": "Штука"
+        },
+        "markingType": null,
+        "rests": {
+          "actualBalance": null, 
+          "accountBalance": 3, 
+          "difference": null
+        }
+      },
+      {
+        "id": "2",
+        "name": "Смартфон Samsung Galaxy S21",
+        "vendorCode": "SAMSUNG-S21",
+        "barCode": null,
+        "description": "Новый флагман от Samsung",
+        "purchasePrice": 800.0,
+        "sellingPrice": 999.99,
+        "promoPrice": 899.99,
+        "excise": true,
+        "hidden": false,
+        "productGroupId": "electronics",
+        "vat": {
+          "id": "vat2",
+          "name": "VAT 10%",
+          "rate": 10
+        },
+        "productType": {
+          "id": "type2",
+          "name": "Смартфоны"
+        },
+        "unit": {
+          "id": "unit2",
+          "name": "Штука"
+        },
+        "markingType": {
+          "id": "marking1",
+          "name": "QR Code"
+        },
+        "rests": {
+          "actualBalance": null, 
+          "accountBalance": 3, 
+          "difference": null
+        }
+      },
+      {
+        "id": "3",
+        "name": "Кофеварка De'Longhi",
+        "vendorCode": "DELONGHI-123",
+        "barCode": "987654321012",
+        "description": "Автоматическая кофеварка с функцией капучинатора",
+        "purchasePrice": 300.0,
+        "sellingPrice": 399.99,
+        "promoPrice": 349.99,
+        "excise": false,
+        "hidden": false,
+        "productGroupId": "appliances",
+        "vat": {
+          "id": "vat3",
+          "name": "VAT 15%",
+          "rate": 15
+        },
+        "productType": {
+          "id": "type3",
+          "name": "Бытовая техника"
+        },
+        "unit": {
+          "id": "unit3",
+          "name": "Штука"
+        },
+        "markingType": null,
+        "rests": {
+          "actualBalance": null, 
+          "accountBalance": 3, 
+          "difference": null
+        }
+      },
+      {
+        "id": "4",
+        "name": "Книга 'Властелин колец'",
+        "vendorCode": "BOOK-LOTR001",
+        "barCode": "567890123456",
+        "description": "Эпическая фэнтези-сага от Дж. Р. Р. Толкиена",
+        "purchasePrice": 15.0,
+        "sellingPrice": 29.99,
+        "promoPrice": 24.99,
+        "excise": false,
+        "hidden": false,
+        "productGroupId": "books",
+        "vat": {
+          "id": "vat4",
+          "name": "VAT 5%",
+          "rate": 5
+        },
+        "productType": {
+          "id": "type4",
+          "name": "Книги"
+        },
+        "unit": {
+          "id": "unit4",
+          "name": "Штука"
+        },
+        "markingType": null,
+        "rests": {
+          "actualBalance": null, 
+          "accountBalance": 3, 
+          "difference": null
+        }
+      },
+      {
+        "id": "5",
+        "name": "Фотоаппарат Canon EOS Rebel",
+        "vendorCode": "CANON-EOS001",
+        "barCode": "112233445566",
+        "description": "Зеркальная камера для любителей фотографии",
+        "purchasePrice": 700.0,
+        "sellingPrice": 899.99,
+        "promoPrice": 799.99,
+        "excise": true,
+        "hidden": false,
+        "productGroupId": "electronics",
+        "vat": {
+          "id": "vat5",
+          "name": "VAT 15%",
+          "rate": 15
+        },
+        "productType": {
+          "id": "type5",
+          "name": "Фотоаппараты"
+        },
+        "unit": {
+          "id": "unit5",
+          "name": "Штука"
+        },
+        "markingType": {
+          "id": "marking2",
+          "name": "Bar Code"
+        },
+        "rests": {
+          "actualBalance": null, 
+          "accountBalance": 3, 
+          "difference": null
+        }
+      }
+    ],
+    "rests": [
+      {
+        "productId": "1",
+        "productCount": 50
+      },
+      {
+        "productId": "2",
+        "productCount": 30
+      },
+      {
+        "productId": "3",
+        "productCount": 100
+      },
+      {
+        "productId": "4",
+        "productCount": 20
+      },
+      {
+        "productId": "5",
+        "productCount": 10
+      }
+      
+    ]
+  }
+  

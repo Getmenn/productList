@@ -1,0 +1,13 @@
+.tableWrapper{
+    padding: 0 10px;
+    
+    .table{
+        .cellHead{
+            background-color: var(--light-blue);
+        }
+    
+        margin: 30px auto;
+        padding: 0 10px;
+        max-width: 1000px;
+    }
+}

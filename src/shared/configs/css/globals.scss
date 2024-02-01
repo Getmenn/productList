@@ -1,0 +1,21 @@
+@import 'normalize';
+@import 'variable';
+
+html {
+    scroll-behavior: smooth;
+    color: var(--txt-primary);
+    background-color: var(--bg-primary);
+    font-family: Montseratt, sans-serif;
+}
+
+body {
+    max-width: 1900px;
+    width: 100%;
+    margin: 0 auto;
+
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+}
