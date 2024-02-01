@@ -9,8 +9,10 @@
   "scripts": {
     "dev": "concurrently next dev \"npm run dev:server\"",
     "dev:server": "json-server -w ./json-server/db.json --port 3002",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "next build",
-    "start": "next start",
+    "start": "concurrently next start \"npm run dev:server\"",
     "lint": "next lint"
   },
   "dependencies": {
