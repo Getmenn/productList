@@ -2,17 +2,14 @@
   "name": "front",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Getmenn.github.io/productList",
   "browser": {
     "fs": false
   },
   "scripts": {
     "dev": "concurrently next dev \"npm run dev:server\"",
     "dev:server": "json-server -w ./json-server/db.json --port 3002",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "next build",
-    "start": "concurrently next start \"npm run dev:server\"",
+    "start": "next start ",
     "lint": "next lint"
   },
   "dependencies": {
@@ -22,7 +19,6 @@
     "axios": "^1.6.7",
     "classnames": "^2.3.2",
     "concurrently": "^8.2.2",
-    "gh-pages": "^6.1.1",
     "json-server": "^1.0.0-alpha.23",
     "next": "^13.5.4",
     "react": "latest",
