@@ -9,7 +9,3 @@ The application contains several pages and implements the following mechanism:
 2. If everything works, click "Перейти к продуктамs"
 3. Enter actual balances
 4. Click on the button in the "Сформировать" header
-
-## Site
-
-link: https://getmenn.github.io/productList/
